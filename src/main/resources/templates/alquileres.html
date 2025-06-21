@@ -16,6 +16,7 @@
                 <th>Cliente</th>
                 <th>Total</th>
                 <th>Estado</th>
+                <th>Acciones</th> <!-- Nueva columna -->
             </tr>
     </thead>
         <tbody>
@@ -25,9 +26,15 @@
                 <td th:text="${alquiler.cliente.nombre}"></td>
                 <td th:text="${alquiler.total}"></td>
                 <td th:text="${alquiler.estado}"></td>
+                <td>
+                    <a th:href="@{/alquileres/editar/{id}(id=${alquiler.id})}" class="btn btn-sm btn-warning">Editar</a>
+                    <a th:href="@{/alquileres/eliminar/{id}(id=${alquiler.id})}" class="btn btn-sm btn-danger"
+                        onclick="return confirm('¿Estás seguro de eliminar este alquiler?')">Eliminar</a>
+                </td>
             </tr>
         </tbody>
     </table>
+    <a href="/alquileres/nuevo" class="btn btn-success mb-3">Nuevo Alquiler</a>
 </div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-package com.alquiler.model;
+package com.alquiler.peliculas_webapp.model;
 
 import java.io.Serializable;
 import lombok.*;

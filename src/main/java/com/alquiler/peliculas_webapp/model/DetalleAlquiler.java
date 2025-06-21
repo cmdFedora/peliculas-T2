@@ -1,4 +1,4 @@
-package com.alquiler.model;
+package com.alquiler.peliculas_webapp.model;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

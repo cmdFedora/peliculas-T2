@@ -1,8 +1,9 @@
-package com.alquiler.services;
+package com.alquiler.peliculas_webapp.services;
 
-import com.alquiler.model.Alquiler;
-import com.alquiler.model.EstadoAlquiler;
-import com.alquiler.repository.AlquilerRepository;
+import com.alquiler.peliculas_webapp.model.Alquiler;
+import com.alquiler.peliculas_webapp.model.EstadoAlquiler;
+import com.alquiler.peliculas_webapp.repository.AlquilerRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

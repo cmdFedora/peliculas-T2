@@ -1,9 +1,10 @@
-package com.alquiler.repository;
+package com.alquiler.peliculas_webapp.repository;
 
-import com.alquiler.model.Alquiler;
-import com.alquiler.model.EstadoAlquiler;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+
+import com.alquiler.peliculas_webapp.model.Alquiler;
+import com.alquiler.peliculas_webapp.model.EstadoAlquiler;
 
 import java.time.LocalDate;
 import java.util.List;
